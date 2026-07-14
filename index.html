@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
         body {
@@ -88,6 +90,9 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item">
+    <a class="nav-link" href="#experience">Experience</a>
+</li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/maipalachiranjeevi/"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -123,7 +128,7 @@
                         <p class="lead text-white-50">I’m Chiranjeevi – a curious mind in the world of code and
                             cognition."<br>
 
-                            I'm a Software Engineering student with a deep passion for Artificial Intelligence. From
+                            I'm a Software Engineer with a deep passion for Artificial Intelligence. From
                             building web apps to training machine learning models, I’m on a journey to bridge human
                             intuition with machine intelligence.
 
@@ -195,6 +200,7 @@
                             <li>Python</li>
                             <li>C++</li>
                             <li>C</li>
+				<li>C#</li>
                             <li>JavaScript</li>
 
                         </ul>
@@ -228,6 +234,10 @@
                             <li>MySQL</li>
                             <li>MongoDB</li>
                             <li>PostgreSQL</li>
+<li>Sqlite</li>
+<li>Redis</li>
+<li>vectorDB</li>
+<li>ChromaDB</li>
                         </ul>
                     </div>
                 </div>
@@ -243,6 +253,8 @@
                             <li>n8n</li>
                             <li>Transformers</li>
                             <li>LLM's</li>
+<li>RAG</li>
+<li>Multi-Agent LLM</li>
                         </ul>
                     </div>
                 </div>
@@ -275,9 +287,91 @@
             </div>
         </div>
     </section>
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
 
+        <!-- Section Heading -->
+        <div class="text-center mb-5">
+            <h2>Experience</h2>
+        </div>
 
-    <!-- Services Section -->
+        <!-- Experience 1 -->
+        <div class="proj1 shadow-sm mb-4">
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <h4 class="fw-bold">
+                        <i class="bi bi-briefcase-fill"></i>
+                        Software Engineer Intern
+                    </h4>
+
+                    <span class="text-muted">
+                        <i class="bi bi-briefcase-fill"></i>
+                        Mar 2026 – Present
+                    </span>
+                </div>
+
+                <h5 class="mt-2 mb-3">
+                    <i class="bi bi-building-fill"></i>
+                    ASM Technologies Limited
+                </h5>
+
+                <ul>
+                    <li>Developing software solutions for industrial machines used in telecommunications and manufacturing domains.</li>
+
+                    <li>Worked on cutting-edge machine-level technologies, contributing to reliable and efficient code for real-time operations.</li>
+
+                    <li>Provided onsite technical support for deployed systems, diagnosing and resolving software issues in production environments.</li>
+
+                    <li>Collaborated with cross-functional teams to ensure seamless integration of software with hardware systems.</li>
+
+                    <li>Improved system performance and stability through debugging, optimization, and testing workflows.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="proj1 shadow-sm">
+            <div class="card-body">
+
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <h4 class="fw-bold">
+                        <i class="bi bi-cpu-fill"></i>
+                        AI-Powered Socratic Learning Platform (iMentor)
+                    </h4>
+
+                    <span class="text-muted">
+                        <i class="bi bi-calendar-event-fill"></i>
+                        Dec 2025 – Mar 2026
+                    </span>
+                </div>
+
+                <h5 class="mt-2 mb-3">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    NIT Andhra Pradesh
+                </h5>
+
+                <ul>
+
+                    <li>Developed an AI-driven learning platform using <strong>LLM + RAG</strong> for state-wide deployment by the AP Government serving 1000+ students.</li>
+
+                    <li>Designed a Socratic tutoring engine generating adaptive step-wise questions for deeper conceptual understanding.</li>
+
+                    <li>Built a topic-wise quiz system with a 70% mastery threshold for structured learning and progress tracking.</li>
+
+                    <li>Implemented a RAG pipeline ensuring curriculum-aligned responses while reducing AI hallucinations.</li>
+
+                    <li>Engineered scalable backend services using Node.js and Spring Boot for AI-powered content generation.</li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+</section>    <!-- Services Section -->
     <section id="services" class="section section-dark">
         <div class="container">
             <h2 class="text-center">Projects</h2>
@@ -414,11 +508,13 @@
     <section class="text-center py-5 bg-dark text-white" id="resume">
         <h2>Want to Know More?</h2>
         <p class="lead">Download my resume to learn about my experience and achievements.</p>
-        <a href="#" class="btn btn-warning">Download Resume <i class="bi bi-download"></i></a>
+        <a href="chiranjeevi_resume" class="btn btn-warning">Download Resume <i class="bi bi-download"></i></a>
     </section>
 
 
     <!-- Contact Section -->
+ <section class="text-center py-5 bg-dark text-white" id="contact">
+
     <form action="https://formspree.io/f/mkgbzwel" method="POST" class="mt-4">
         <div class="row">
             <div class="col-md-6 mb-3">
@@ -433,7 +529,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
-
+   </section>
 
     <!-- Footer -->
     <footer class="footer">
